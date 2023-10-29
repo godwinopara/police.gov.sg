@@ -10,6 +10,10 @@ const config: Config = {
 		extend: {
 			backgroundImage: {
 				herobg: "url('/images/newbg.jpg')",
+				moneylend: "url('/images/moneylending.jpeg')",
+				loanshark: "url('/images/loanshark.jpg')",
+				melware: "url('/images/bank.jpg')",
+				default: "url('/images/default_thumbnail.jpg')",
 			},
 			colors: {
 				darkblue: "#00205b",
