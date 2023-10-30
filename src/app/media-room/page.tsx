@@ -9,6 +9,7 @@ import { SlMenu } from "react-icons/sl";
 import { IoCloseSharp } from "react-icons/io5";
 import MobileNav from "@/components/MobileNav";
 import { useState } from "react";
+import { Metadata } from "next";
 
 export default function News() {
 	const [toggleShowNav, setToggleShowNav] = useState(false);
@@ -33,7 +34,7 @@ export default function News() {
 						<h1
 							className={`${oswald.className} uppercase tracking-[0.272rem] leading-[3.1rem] font-normal text-white text-5xl w-[100%]`}
 						>
-							Man Aprrehended with gold trunk box
+							Man Apprehended with gold trunk box
 						</h1>
 					</div>
 				</div>
@@ -69,7 +70,7 @@ export default function News() {
 						<h1
 							className={`${oswald.className} uppercase font-normal leading-[5.29rem] tracking-[1.15rem] mt-4 mb-11 text-7xl w-[70%]`}
 						>
-							Man Aprrehended with gold trunk box
+							Man Apprehended with gold trunk box
 						</h1>
 					</div>
 				</div>
@@ -109,14 +110,21 @@ export default function News() {
 							proven guilty in a court of law.
 						</p>
 
-						<div className="mt-20 flex justify-center">
+						<div className="mt-20 flex">
+							<Image
+								src="/images/police.jpeg"
+								alt="box"
+								height={10}
+								width={400}
+								className="mr-10"
+							/>
 							<Image src="/images/box.jpg" alt="box" height={300} width={300} />
 						</div>
 
 						<div className="mt-24">
 							<strong className="block text-3xl">PUBLIC AFFAIRS DEPARTMENT</strong>
 							<strong className="block text-3xl">SINGAPORE POLICE FORCE</strong>
-							<strong className="block text-3xl">26 October 2023 @ 9:55 PM</strong>
+							<strong className="block text-3xl">31 October 2023</strong>
 						</div>
 					</div>
 				</div>

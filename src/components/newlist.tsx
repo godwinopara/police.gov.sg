@@ -22,12 +22,12 @@ export default function NewsList() {
 					<Link href="/media-room">
 						<div className=" items-center  border-b border-gray-300 mb-14 pb-10 lg:pb-0 lg:flex">
 							<div className="lg:w-[50rem] mb-20">
-								<span className=" block text-3xl mb-5">26 0ct 2023</span>
+								<span className=" block text-3xl mb-5">31 0ct 2023</span>
 								<div className="h-[250px] w-[350px] bg-default bg-no-repeat bg-cover bg-center relative"></div>
 							</div>
 							<div className="ml-8">
 								<h4 className="font-bold text-3xl text-darkblue mb-8">
-									Man Aprrehended with gold trunk box
+									Man Apprehended with gold trunk box
 								</h4>
 								<p className="">
 									In a significant development, the police have successfully apprehended a man named
@@ -39,7 +39,7 @@ export default function NewsList() {
 					<Link href="https://www.police.gov.sg/media-room/news/20231025_eight_members_of_an_organised_criminal_group_to_be_charged_for_illegal_gambling_activities">
 						<div className="pb-10 lg:pb-0 lg:flex items-center  border-b border-gray-300 mb-14">
 							<div className="lg:w-[50rem] mb-20">
-								<span className="block text-3xl mb-5">27 0ct 2023</span>
+								<span className="block text-3xl mb-5">29 0ct 2023</span>
 								<div className="h-[250px] w-[350px] bg-default bg-no-repeat bg-cover bg-center relative"></div>
 							</div>
 							<div className="ml-8">
