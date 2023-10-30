@@ -110,13 +110,13 @@ export default function News() {
 							proven guilty in a court of law.
 						</p>
 
-						<div className="mt-20 flex">
+						<div className="mt-20 xl:flex">
 							<Image
 								src="/images/police.jpeg"
 								alt="box"
 								height={10}
 								width={400}
-								className="mr-10"
+								className="mb-16 xl:mr-10"
 							/>
 							<Image src="/images/box.jpg" alt="box" height={300} width={300} />
 						</div>
