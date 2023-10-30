@@ -18,6 +18,7 @@ const config: Config = {
 			},
 			colors: {
 				darkblue: "#00205b",
+				green: "#000",
 			},
 			screens: {
 				md: "766px",
