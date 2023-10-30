@@ -10,6 +10,7 @@ const config: Config = {
 		extend: {
 			backgroundImage: {
 				herobg: "url('/images/newbg.jpg')",
+				newsBg: "url('/images/newdetails-bg.jpg')",
 				moneylend: "url('/images/moneylending.jpeg')",
 				loanshark: "url('/images/loanshark.jpg')",
 				melware: "url('/images/bank.jpg')",
@@ -17,6 +18,10 @@ const config: Config = {
 			},
 			colors: {
 				darkblue: "#00205b",
+			},
+			screens: {
+				md: "766px",
+				lg: "1020px",
 			},
 		},
 	},

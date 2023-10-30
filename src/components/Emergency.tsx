@@ -1,6 +1,6 @@
 const Emergency = () => {
 	return (
-		<ul className="z-10 flex justify-end max-w-[1200px] mx-auto">
+		<ul className="hidden z-10 lg:flex justify-end max-w-[1200px] mx-auto">
 			<li className="bg-white italic font-light relative">
 				<div className="px-8 border-r border-gray-400 my-6">
 					EMERGENCIES <span className="ml-4 font-bold text-3xl">999</span>
